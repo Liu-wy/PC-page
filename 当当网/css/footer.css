@@ -1,0 +1,60 @@
+.tb-1{
+    width: 138px;
+    height: 52px;
+    display: inline-block;
+    margin: 7px 40px;
+}
+.tb-0{
+    background-image: url(../images/footer_bg.png);
+    background-position: 0 0;
+}
+.tb-2{
+    background-image: url(../images/footer_bg.png);
+    background-position: 0 -51px;
+}
+.tb-3{
+    background-image: url(../images/footer_bg.png);
+    background-position: 0 -103px;
+}
+.tb-4{
+    background-image: url(../images/footer_bg.png);
+    background-position: 0 -156px;
+}
+.fuwu-1{
+    width: 154px;
+    margin: 30px 35px;
+    text-align: center;
+    float: left;
+}
+.fuwu-1 li{
+    list-style: none;
+}
+.fuwu-1 a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #666;
+}
+.fuwu-1 a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.gongsi li{
+    list-style: none;
+    float: left;
+    color: #666;
+}
+.gongsi ul{
+    margin-left: 120px;
+}
+.gongsi a{
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;
+}
+.xuke span{
+    font-size: 12px;
+    color: #666;
+}
+.xuke1{
+    margin-left: 80px;
+}

@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.adress{
+    width: 1200px;
+    height: 30px;
+    /* border: 1px solid black; */
+    margin: 2px auto;
+}
+.adr{
+    width: 100px;
+    height: 30px;
+    /* border: 1px solid slategrey; */
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+    color: grey;
+    cursor: pointer;
+    position: relative;
+}
+.adr-img{
+    width: 8px;
+    height: 8px;
+    float: right;
+    margin-top: 9px;
+}
+.dl{
+    float: right;
+    font-size: 12px;
+}
+.dl li{
+    float: left;
+    list-style: none;
+    height: 12px;
+    line-height: 12px;
+    margin-right: 6px;
+    margin-top: 9px;
+    text-align: center;
+    color: grey;
+    padding-right: 4px;
+    /* width: 80px; */
+    
+}
+.dl li a{
+    text-decoration: none;
+    color: grey;
+}
+.denglu{
+    color: red!important;
+}
+.dl li a:hover{
+    color: red;
+}
+.shu{
+    border-right: 1px solid lightslategray;
+}
+.dl li img{
+    vertical-align: middle;
+    margin-left: 4px;
+    width: 8px;
+    height: 8px;
+}
+.top-min img{
+    float: left;
+}
+.top-middle{
+    width: 580px;
+    height: 90px;
+    /* border: 1px solid green; */
+    float: left;
+    margin-top: 10px;
+}
+.search{
+    width: 580px;
+    height: 38px;
+    border: 2px solid red;
+    position: relative;
+}
+.search .sou{
+    width: 400px;
+    height: 30px;
+    border: none;
+    padding: 3px;
+    float: left;
+}
+.lei{
+    display: block;
+    width: 123px;
+    height: 38px;
+    background-color: #eeeeee;
+    font-size: 16px;
+    line-height: 40px;
+    float: left;
+}
+.lei span{
+    width: 60px;
+    margin-left: 20px;
+    color: #969696;
+}
+.lei img{
+    margin-top: 12px;
+    float: right;
+}
+.search-r{
+    width: 50px;
+    height: 40px;
+    float: right;
+    outline: none;
+    border: 1px solid red;
+    background-image: url(../images/head_sprite.png);
+    background-position: 0 -346px;
+    cursor: pointer;
+}
+.hotword{
+    width: 580px;
+    height: 40px;
+    font-size: 12px;
+    color: #969696;
+    margin-top: 6px;
+    /* line-height: 40px; */
+}
+.hotword a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #969696;
+}
+.hotword a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.top-right{
+    margin-top: 10px;
+    width: 200px;
+    height: 36px;
+    font-size: 0;
+    float: right;
+    /* background-color: #eeeeee; */
+}
+.shopCar{
+    display: inline-block;
+    width: 107px;
+    height: 36px;
+    background-color: red;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 2px;
+    text-decoration: none;
+    line-height: 36px;
+    margin-right: 0;
+}
+.shopCar img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.shopCar:hover{
+    background-color: #eeeeee;
+    border: 1px solid #969696;
+    color: red;
+}
+.order{
+    display: inline-block;
+    width: 80px;
+    height: 36px;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+    color: #646464;
+    border: 1px solid #969696;
+    text-decoration: none;
+    background-color: #eeeeee;
+
+}
+.order:hover{
+    color: red;
+}
+.classify{
+    width: 1200px;
+    height: 40px;
+    margin: auto;
+    /* border: 1px solid hotpink; */
+
+}
+.class-ul li{
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+    line-height: 40px;
+}
+.class-ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #323232;
+}
+.class-ul-li1{
+    width: 200px;
+    background-color: #ff2832;
+}
+.class-ul-li1 a{
+    color: #ffffff!important;
+    margin-right: 80px;
+    margin-left: 10px;
+}
+.class-ul li a:hover{
+    color: red;
+}
+.dizhi{
+    width: 300px;
+    height: 170px;
+    border: 1px solid #969696;
+    position: absolute;
+    background-color: #eeeeee;
+    display: none;
+}
+.adr .beijing{
+    width: 25px;
+    border: none;
+    background-color: #eeeeee;
+}
+.dizhi li{
+    list-style: none;
+    float: left;
+}
+.dizhi a{
+    text-decoration: none;
+    padding: 5px 20px;
+    color: #646464;
+}
+.dizhi a:hover{
+    color: #ff2832;
+}
+#myD{
+    position: relative;
+    z-index: 10;
+
+}
+#myD-list{
+    /* width: 300px;
+    height: 170px; */
+    border: 1px solid #969696;
+    position: absolute;
+    background-color: #ffffff;
+    display: none;
+}
+#myD-list span{
+    display: inline-block;
+    height: 20px;
+    width: 70px;
+}
+#myD-list>span:hover{
+    background-color: #eeeeee;
+}

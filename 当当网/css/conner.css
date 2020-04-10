@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.con-top ul{
+    width: 1200px;
+    height: 30px;
+    border: royalblue;
+    margin: auto;
+}
+.con-top ul li{
+    line-height: 30px;
+    list-style: none;
+    float: left;
+    font-size: 12px;
+    margin-left: 10px;
+    
+}
+.con-top ul .con-top-shu{
+    width: 1px;
+    height: 8px;
+    border-left: 1px solid #646464;
+    margin: 11px 10px;
+}
+.con-top a{
+    text-decoration: none;
+    color: #646464;
+}
+.con-top a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.inner-tabtop{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 35px;
+    border-bottom: 2px dashed black;
+}
+.book li{
+    width: 174px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #487a6f;
+    list-style: none;
+    padding: 4px;
+    border-bottom: 1px dashed grey;
+}
+.book li a{
+    text-decoration: none;
+    color: #487a6f;
+}
+.book li a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.book li img{
+    float: right;
+}
+.book span{
+    display: inline-block;
+    width: 160px;
+}
+.jiaoyu a{
+    font-size: 12px;
+    color: #666;
+}
+.inner-right1{
+    padding: 5px;
+}
+.inner-right1 a{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+.inner-right1 a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.inner-right2{
+    padding: 5px;
+    position: relative;
+}
+.more{
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+.inner-right2 img{
+    margin-top: 20px;
+}
+.book2{
+    width: 80px;
+    float: right;
+    margin-right: 30px;
+    font-size: 12px;
+    margin-top: 40px;
+    text-align: left;
+}
+.book2 a{
+    text-decoration: none;
+    color: #666;
+}
+.book2 a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.price1{
+    color: red;
+    font-weight: bolder;
+}
+.price2{
+    color: #aaaaaa;
+    text-decoration: line-through;
+}
+.inner-right3 img{
+    vertical-align: middle;
+}
+.newBook{
+    color: red;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.inner-right4>span{
+    display: block;
+    width: 45px;
+    height: 25px;
+    border: 1px solid #aaaaaa;
+    font-size: 13px;
+    float: left;
+    line-height: 25px;
+    text-align: center;
+    color: #000;
+}
+.inner-right4>span:hover{
+    color: #487a6f;
+    font-weight: bolder;
+    border-top: 2px solid #487a6f;
+    border-bottom: none;
+}
+.inner-right4 ul li{
+    list-style: none;
+    width: 220px;
+    padding: 8px;
+    border-bottom: 1px solid #eeeeee;
+}
+.inner-right4 ul{
+    position: relative;
+}
+.one span{
+    color: red;
+}
+.one1{
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+.one img{
+    width: 120px;
+    height: 120px;
+}
+.top1{
+    width: 80px;
+    float: right;
+    margin-top: 40px;
+    font-size: 12px;
+    margin-right: 20px;
+}
+.pinglun{
+    color: #487a6f!important;
+}
+.pinglun:hover{
+    color: #487a6f!important;
+}
+.top1 a{
+    text-decoration: none;
+    color: #666;
+}
+.top1 a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.one-more{
+    color: blue;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 140px;
+}
+.one-more:hover{
+    text-decoration: underline;
+}
+.conner-bot-img1 img{
+    width: 380px;
+    height: 140px;
+}
+.lun1{
+    width: 1000%;
+}
+.lun1 img{
+    width: 750px;
+    height: 317px;
+}
+.page{
+    width: 300px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 295px;
+    z-index: 10;
+}
+.page li{
+    list-style: none;
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-right: 13px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+}
+#select{
+    background-color: #ff4848;
+}
+.select1{
+    background-color: pink;
+}
+.bot-box{
+    width: 1000%;
+    height: 540px;
+}
+.bot1{
+    width: 750px;
+    height: 540px;
+    float: left;
+}
+.bot1 li{
+    list-style: none;
+    width: 150px;
+    height: 250px;
+    float: left;
+    margin: 10px 15px; 
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+.bot1 li a{
+    text-decoration: none;
+    color: #000;
+}
+.dian{
+    width: 100px;
+    height: 10px;
+}
+.dian ul{
+    position: absolute;
+    bottom: 0;
+    left: 240px;
+}
+.dian li{
+    list-style: none;
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 15px;
+    border-radius: 50%;
+    background-color: #aaaaaa;
+    cursor: pointer;
+}
+.left-1{
+    width: 25px;
+    height: 50px;
+    background-color: lightslategray;
+    position: absolute;
+    left: 0;
+    bottom: 245px;
+    z-index: 10;
+}
+.left-1 img{
+    margin-top: 12px;
+}
+.right-1{
+    width: 25px;
+    height: 50px;
+    background-color: lightslategray;
+    position: absolute;
+    right: 0;
+    bottom: 245px;
+    z-index: 10;
+}
+.right-1 img{
+    margin-top: 12px;
+}
+.left-1:hover{
+    background-color: #487a6f;
+}
+.right-1:hover{
+    background-color: #487a6f;
+}
+.dujia{
+    width: 950px;
+    height: 50px;
+    font-size: 0;
+}
+.dujia-pic{
+    display: inline-block;
+    width: 130px;
+    height: 50px;
+    background-image: url(../images/title_sprite.png);
+    background-position: 0 0;
+    border-bottom: 1px solid seagreen;
+    background-repeat: no-repeat;
+}
+.dujia ul{
+    height: 50px;
+    float: right;
+    border-bottom: 1px solid seagreen;
+
+}
+.dujia li{
+    list-style: none;
+    float: left;
+    color: #666666;
+    font-size: 14px;
+    height: 34px;
+    border-bottom: 1px solid seagreen;
+    /* margin-top: 16px; */
+    margin: 16px 20px 0 20px;
+    line-height: 34px;
+}
+.dujia li:hover{
+    border: 2px solid seagreen;
+    border-radius: 10%;
+    border-bottom: none;
+    font-weight: bolder;
+}
+.tab1{
+    width: 950px;
+    height: 530px;
+    display: none;
+}
+.selectTab{
+    display: block;
+}
+.tab1 li{
+    width: 150px;
+    height: 270px;
+    margin: 6px 37px;
+    list-style: none;
+    float: left;
+}
+.book{
+    float: left;
+}
+.bool-li-tab{
+    width: 500px;
+    height: 515px;
+    /* border: 1px solid #666666; */
+    margin-left: 190px;
+    z-index: 8;
+    position: absolute;
+    overflow: hidden;
+    /* display: none; */
+    /* background-image: url(../images/tongshu1.jpg); */
+}
+.tab2-img{
+    width: 500px;
+    height: 915px;
+    display: none;
+}
+.tab2-img img{
+    width: 500px;
+    height: 500px;
+}
